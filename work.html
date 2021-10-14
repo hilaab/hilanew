@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>work </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Convert to an external stylesheet-->
+    <style>
+        .tool-bar {
+            position: fixed !important;
+            background-color: #C2AEE1;
+            /* Set the navbar to fixed position */
+            top: 0;
+            /* Position the navbar at the top of the page */
+            width: 100%;
+            /* Full width */
+            padding: 12px;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+        
+        .bar-item {
+            color: white;
+            padding: 8px 12px;
+            float: right;
+            width: auto;
+            border: none;
+            display: block;
+            outline: 0;
+        }
+        
+        .bar-item:hover {
+            color: rgba(235, 61, 177, 0.699);
+        }
+        
+        .wide {
+            letter-spacing: 4px;
+            float: left;
+        }
+        
+        .item1 {
+            grid-area: header;
+        }
+        
+        .item2 {
+            grid-area: menu;
+        }
+        
+        .item3 {
+            grid-area: main;
+        }
+        
+        .item4 {
+            grid-area: right;
+        }
+        
+        .item5 {
+            grid-area: footer;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-areas: 'header header header header header header' 'menu main main main right right' 'menu footer footer footer footer footer';
+            grid-gap: 5px;
+            padding: 5px;
+        }
+        
+        .grid-container>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
+</head>
+
+<body background="c:///Users/hila/hilanew/pic/comment3.jpg" style=" background-size: 100% ">
+    <nav>
+        <div class="tool-bar ">
+            <a style="text-decoration:none " href="#home " class="bar-item button wide "><i class="fa fa-key "></i>LOGO</a>
+            <!-- Right-sided navbar links -->
+            <div class="right hide-small ">
+                <a style="text-decoration:none " href="C:\Users\hila\hilanew\Untitled-1.html " class="bar-item button "><i class="fa fa-home " aria-hidden="true "></i>
+                            HOME</a>
+                <a style="text-decoration:none " href="#work " class="bar-item button "><i class="fa fa-th "></i> WORK</a>
+                <a style="text-decoration:none " href="C:\Users\hila\hilanew\about.html " class="bar-item button "><i class="fa fa-user "></i> ABOUT</a>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+    <br><br>
+    <br><br><br>
+
+    <div class="grid-container">
+        <div class="item2">
+            <div class="img">
+                <img class="image" src="c:///Users/hila/hilanew/pic/Capture.PNG" width=600px height="400px">
+            </div>
+        </div>
+        <div class="item3">Main</div>
+        <div class="item4">Right</div>
+        <div class="item5">Footer</div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8 " crossorigin="anonymous ">
+    </script>
+</body>
+
+</html>
